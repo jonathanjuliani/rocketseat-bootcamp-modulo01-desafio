@@ -1,0 +1,17 @@
+{
+  "name": "rocketseat-bootcamp-modulo01-desafio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:jonathanjuliani/rocketseat-bootcamp-modulo01-desafio.git",
+  "author": "Jonathan Juliani <jonathan.juniani@userede.com.br>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
