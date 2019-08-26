@@ -91,9 +91,7 @@ server.delete(
   (req, res) => {
     const { id } = req.params;
     const filter = projects.filter(item => item.id !== parseInt(id));
-    console.log(id, filter);
     projects = filter;
-
     res.status(200).json(projects);
   }
 );
